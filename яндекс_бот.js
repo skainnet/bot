@@ -19,11 +19,7 @@ if (btn!=undefined){
 
      YInput.value=sW[i];
         i++;
-        //if(i==sW.length){
-
-          clearInterval(timerId);
-          btn.click();
-        //}
+        
       },500);
   }
 else if(location.hostname == "yandex.ru"){
