@@ -27,11 +27,7 @@ else if(location.hostname == "yandex.ru"){
     for (let i = 0; i<links.length; i++){
     if (links[i].href.indexOf('https://xn----7sbab5aqcbiddtdj1e1g.xn--p1ai/')!=-1)
     {
-        //links[i].removeAttribute("target");
-        flag=false;
-        links[i].click();
-        break;
-    }//
+      
   }
     if(flag){
        setTimeout(()=>{
